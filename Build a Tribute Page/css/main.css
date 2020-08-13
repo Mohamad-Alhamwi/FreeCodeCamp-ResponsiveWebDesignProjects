@@ -1,0 +1,285 @@
+/* Start General Rules */
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+/* End General Rules */
+
+/* Start Container Rules */
+.Container
+{
+    background: #ffffff;
+    padding-bottom: 5%;
+}
+
+.Container .introductionSection
+{
+    min-height: 625px;
+    background: #f7c430;
+    color: #212528;
+    padding-top: 10%;
+}
+
+.Container .introductionSection #img-div
+{
+    text-align: center; 
+}
+
+.Container .introductionSection #img-div img
+{
+    border-radius: 50%;
+    max-width: 100%;
+    width: 25%;
+    height: auto;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.Container .introductionSection #title
+{
+    text-shadow: 1px 1px 2px #1d809e;
+    font-size: 6vw;
+    margin-top: 7%;
+}
+
+.Container .introductionSection #img-caption
+{
+    margin-top: 3%;
+    font-size: 4vw;
+    color: #1d809e; 
+    padding: 0 3% 0 3%;
+}
+
+.Container main .aboutSection
+{
+    background:  #ffffff;
+    box-shadow:  12px 12px 2px 1px #f7c430;
+    margin: 9% 3% 0 3%;
+    min-height: 450px;
+    padding: 5% 5% 3% 5%;
+    line-height: 150%;
+}
+
+.Container main .aboutSection h2
+{
+    line-height: 170%;
+    font-size: 170%;
+    color: #1d809e; 
+}
+
+.Container main .aboutSection p
+{
+    margin-bottom: 10px;
+}
+
+.Container main .aboutSection a
+{
+    color: #1d809e; 
+}
+
+.Container main .aboutSection a:hover
+{
+    color: #f7c430; 
+}
+
+.Container main .booksSection
+{
+    background: #ffffff;
+    box-shadow:  12px 12px 2px 1px #f7c430;
+    margin: 9% 3% 0 3%;
+    min-height: 450px;
+    padding: 5% 5% 0 5%;
+    line-height: 150%;
+}
+
+.Container main .booksSection h2
+{
+    line-height: 170%;
+    font-size: 170%;
+    color: #1d809e; 
+}
+
+.Container main .booksSection .booksContainer
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.books
+{
+    flex: 1 1 auto;
+    text-align: center;
+    margin-top: 6%;
+}
+
+.books img
+{
+    max-width: 100%;
+    height: 250px;
+    width: 165px;
+    box-shadow:  12px 12px 2px 1px #1d809e;
+
+}
+
+.Container main .projectsSection
+{
+    background: #ffffff;
+    box-shadow:  12px 12px 2px 1px #f7c430;
+    margin: 9% 3% 0 3%;
+    min-height: 450px;
+    padding: 5% 5% 3% 5%;
+    line-height: 150%;
+}
+
+.Container main .projectsSection h2
+{
+    line-height: 170%;
+    font-size: 170%;
+    color: #1d809e; 
+}
+
+.Container main .projectsSection p
+{
+    margin-bottom: 10px;
+}
+
+.Container main .projectsSection a
+{
+    color: #1d809e; 
+}
+
+.Container main .projectsSection a:hover
+{
+    color: #f7c430; 
+}
+/* End Container Rules */
+
+@media (max-width: 550px)
+{
+    .Container
+    {
+        padding-bottom: 10%;
+    }
+
+    .Container .introductionSection
+    {
+        min-height: 500px;
+        background: #0b475a;
+        color: #f7c430;
+        padding-top: 20%;
+    }
+
+    .Container .introductionSection #img-div img
+    {
+        width: 30%;
+    }
+
+    .Container .introductionSection #img-title
+    {
+        font-size: 8vw;
+        text-shadow: 1px 1px 2px #212528;
+        margin-top: 5%;
+    }
+
+    .Container .introductionSection #img-caption
+    {
+        color: #f7c430; 
+        line-height: 170%;
+        margin-top: 5%;
+    }
+
+    .Container main .aboutSection
+    {
+        box-shadow:  6px 6px 2px 1px #0b475a;
+        padding: 5% 3% 5% 3%;
+    }
+
+    .Container main .aboutSection h2
+    {
+        line-height: 170%;
+        color: #f7c430; 
+        font-size: 6vw;
+    }
+
+    .Container main .aboutSection p
+    {
+        margin-bottom: 3%;
+        font-size: 4vw;
+        line-height: 150%;
+    }
+
+    .Container main .aboutSection a
+    {
+        color: #f7c430; 
+        font-size: 4vw;
+    }
+
+    .Container main .aboutSection a:hover
+    {
+        color: #1d809e; 
+    }
+
+    .Container main .booksSection
+    {
+        box-shadow:  6px 6px 2px 1px #0b475a;
+        padding: 5% 3% 5% 3%;
+    }
+
+    .Container main .booksSection h2
+    {
+        line-height: 170%;
+        color: #f7c430; 
+        font-size: 6vw;
+    }
+
+    .Container main .booksSection p
+    {
+        font-size: 4vw;
+    }
+
+    .Container main .booksSection .booksContainer
+    {
+        flex-direction: column;
+    }
+
+    .books img
+    {
+        box-shadow:  6px 6px 2px 1px #f7c430;
+    }
+
+    .Container main .projectsSection
+    {
+        box-shadow:  6px 6px 2px 1px #0b475a;
+        padding: 5% 3% 5% 3%;
+    }
+
+    .Container main .projectsSection h2
+    {
+        line-height: 170%;
+        color: #f7c430; 
+        font-size: 6vw;
+    }
+
+    .Container main .projectsSection p
+    {
+        margin-bottom: 3%;
+        font-size: 4vw;
+        line-height: 150%;    
+    }
+
+    .Container main .projectsSection a
+    {
+        color: #f7c430; 
+        font-size: 4vw; 
+    }
+
+    .Container main .projectsSection a:hover
+    {
+        color: #1d809e;
+    }
+}
